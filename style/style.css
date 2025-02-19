@@ -1,12 +1,77 @@
 
-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 100px; 
-    float: left;
-    margin-right: 10px;
-  }
-  .username {
-    font-weight: bold;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+
+.profile-header {
+  margin-top: 20px;
+}
+
+.profile-header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+.profile-header h1 {
+  margin: 10px 0 5px;
+  font-size: 2em;
+}
+
+.profile-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: darkolivegreen;
+}
+
+.about-me {
+  max-width: 600px;
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+  color: darkolivegreen;
+}
+
+
+.contact {
+  max-width: 600px;
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  color: darkolivegreen;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; 
+  gap: 15px; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.contact ul li {
+  margin: 2px 0;
+}
+
+.contact ul li a img{
+  width: 25px;
+}
+
